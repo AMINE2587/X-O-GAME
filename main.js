@@ -16,7 +16,7 @@ function finish(num1,num2,num3){
     document.getElementById('it' + num2).style.background = '#282828';
     document.getElementById('it' + num3).style.background = '#282828';
 
-    setTimeout(function(){location.reload()},10000);
+    setTimeout(function(){location.reload()},11000);
     
 }
 
