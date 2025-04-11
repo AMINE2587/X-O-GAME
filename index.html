@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-O</title>
+    <link rel="shortcut icon" href="tic-tac-toe.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <header>
+         <h1>X-O GAME START PLAYING</h1>
+     </header>
+     <main>
+        <div class="game">
+            <div class="player-turn">
+                <span class="turn-x-o"></span>
+            </div>
+            <div class="container">
+                <div onclick="game(this.id)" class="border" id="it1"></div>
+                <div onclick="game(this.id)" class="border" id="it2"></div>
+                <div onclick="game(this.id)" class="border" id="it3"></div>
+                <div onclick="game(this.id)" class="border" id="it4"></div>
+                <div onclick="game(this.id)" class="border" id="it5"></div>
+                <div onclick="game(this.id)" class="border" id="it6"></div>
+                <div onclick="game(this.id)" class="border" id="it7"></div>
+                <div onclick="game(this.id)" class="border" id="it8"></div>
+                <div onclick="game(this.id)" class="border" id="it9"></div>   
+            </div>
+            <div class="game-rusalt">
+                <span id="ruslt">Enjoy!</span>
+            </div>
+            <div class="reset">
+                <button id="reset-btn" type="reset">Reset</button>
+            </div>
+        </div>
+     </main>
+    <audio id="aud" src="click.m4a"></audio>
+    <audio id="audio" src="taswib.m4a"></audio>
+     <script src="main.js"></script>
+</body>
+</html>

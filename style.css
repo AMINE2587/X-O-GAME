@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgb(33, 33, 33), rgb(129, 129, 129));
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+header h1{
+    font-size: 40px;
+}
+@media (min-width:300px) and (max-width: 600px){
+    header h1{
+        font-size: 25px;
+    }
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+.game{
+    background: none;
+    height: 400px;
+    width: 400px;
+}
+
+.player-turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.player-turn span{
+    font-size: 23px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
+@media (min-width : 300px) and (max-width : 600px){
+    .container{
+        width: 310px;
+        height: 310px;
+    }
+}
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    background: none;
+    height: 100px;
+    width: 131px;
+    cursor: pointer;
+    border: white 1.25px solid;
+    font-family: system-ui,;
+    color: white;
+    font-weight: 800;
+}
+.game-rusalt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.game-rusalt span{
+    font-size: 18px;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.reset button{
+    padding: 7px;
+    width: fit-content;
+    width: 90px;
+    color: white;
+    background-color: rgba(195, 98, 98, 0.153);
+    border: 1.5px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: background 0.3s ease-in-out;
+}
+.reset button:hover{
+    background: white;
+    color: rgb(62, 53, 53);
+}
+
+
+
+
+
+
